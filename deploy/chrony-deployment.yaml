@@ -31,7 +31,7 @@ spec:
         - containerPort: 123
           name: ntp
           protocol: UDP
-        image: mwennrich/chrony:latest
+        image: ghcr.io/mwennrich/chrony:latest
         livenessProbe:
           exec:
             command:
